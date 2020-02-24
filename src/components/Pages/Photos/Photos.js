@@ -1,14 +1,20 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Photos.css";
+import Slider from "../../Slider/Slider";
 
-function Photos() {
-  return (
-    <div>
-      <h1>Photos</h1>
-  
-      
-    </div>
-  )
+
+class Photos extends Component {
+
+
+  render() {
+   
+    return(
+      <div>
+        <Slider />
+      </div>
+    )
+  }
+
 }
 
 export default Photos;
