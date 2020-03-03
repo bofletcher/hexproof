@@ -11,11 +11,14 @@
   background: black;
   i{
     font-size: 2vw;
+    color: white;
   }
 }
 
 .slide{
-
+  //eperimental
+  display: flex;
+  //experimantal
   min-width: 100%;
   height:calc(100vh - 3.5em);
   transition: .5s;

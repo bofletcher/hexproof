@@ -6,7 +6,11 @@
 body {
   background-size: cover;
   background-attachment: fixed;
-  background-color: white;
+  background-color: black;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.main-container{
+ background-color: black;
 }

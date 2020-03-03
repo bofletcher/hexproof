@@ -1,0 +1,91 @@
+.audio-player{
+  box-sizing: border-box;
+  border-style: double;
+  padding: 1em;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'IBM Plex Mono';
+  margin: 0;
+  line-height: 50px;
+  color: white;
+}
+
+.image_title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.album_art{
+  width: 100%;
+  max-width: 300px;
+}
+
+.player {
+  float: left;
+  width: 100%;
+  max-width: 300px;
+  font-family: 'IBM Plex Mono';
+}
+
+.tracklist {
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklist li {
+  background: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+  list-style: none;
+}
+
+.tracklist li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons {
+  float: left;
+  width: 100%;
+}
+
+.buttons button {
+  float: left;
+  width: 75px;
+  height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0;
+  background: white;
+  font-family: 'IBM Plex Mono';
+}
+
+.buttons button:hover {
+  border-bottom: 3px solid white;
+  font-weight: bold;
+}
+
+.timebar {
+  float: left;
+  width: 100%;
+  height: 30px;
+  background: black;
+  color: white;
+}
+
+.bar {
+  float: left;
+}
+
+.time {
+  float: right;
+  text-align: center;
+  line-height: 30px;
+  width: 100px;
+  color: white;
+}

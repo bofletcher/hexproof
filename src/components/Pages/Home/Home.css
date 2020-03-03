@@ -1,0 +1,20 @@
+.home-main{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: calc(100vh - 3.5em);
+  background-color: black;
+}
+
+.home-logo{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.footer-message{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}

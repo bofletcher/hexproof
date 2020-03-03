@@ -4,7 +4,7 @@ function ImgComp({src}){
   let imgStyles = {
     width: 100+"%",
     height: "auto",
-    objectFit: "cover"
+    objectFit: "contain"
   }
   return <img src={src} alt="slide-img" style={imgStyles} />
 }

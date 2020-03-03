@@ -1,5 +1,6 @@
 {
   "name": "hexproof",
+  "homepage": "http://hexproof.club",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

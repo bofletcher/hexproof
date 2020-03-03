@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import "./slider.scss"
 import ImgComp from "./ImgComp"
-import i1 from "./pics/1.jpg"
-import i2 from "./pics/2.jpg"
-import i3 from "./pics/3.jpg"
+import i1 from "./pics/1.png"
+import i2 from "./pics/2.png"
+import i3 from "./pics/3.png"
 import i4 from "./pics/4.png"
-import i5 from "./pics/5.jpg"
+import i5 from "./pics/5.png"
 
 
 function Slider(){

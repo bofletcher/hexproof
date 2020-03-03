@@ -1,0 +1,11 @@
+.main_music {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  border: 1em double white;
+  height: calc(100vh - 3.5em);
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+  overflow-y: auto;
+}

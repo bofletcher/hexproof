@@ -1,13 +1,16 @@
 import React from "react";
+
 import "./Music.css"
+import AudioPlayer from "../../AudioPlayer/AudioPlayer";
+
 
 
 function Music() {
   return (
     <div>
-      <h1>Music</h1>
-      <audio src=""></audio>
-      
+      <div className="main_music">
+        <AudioPlayer />
+        </div>
     </div>
   )
 }

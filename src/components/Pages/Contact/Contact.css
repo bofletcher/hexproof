@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+}
+
+.main_contact{
+display: flex;
+height: calc(100vh - 3.5em);
+background-color: black;
+border: 1em double white;
+}
+
+

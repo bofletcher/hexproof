@@ -1,10 +1,12 @@
 import React from "react";
 import "./Video.css"
+import VideoPlayer from "../../VideoPlayer/VideoPlayer";
+
 
 function Video() {
   return (
-    <div>
-      <h1>Video</h1>
+    <div className="video-main">
+      <VideoPlayer />
     </div>
   )
 }

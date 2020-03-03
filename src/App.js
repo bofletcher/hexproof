@@ -14,9 +14,10 @@ import Contact from "./components/Pages/Contact/Contact"
 
 
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import { createBrowserHistory } from "history";
 
 
-
+const history = createBrowserHistory();
 
 class App extends Component {
   state = {
@@ -40,23 +41,23 @@ class App extends Component {
   if (this.state.sideDrawerOpen) {
     backdrop = <Backdrop click={this.backDropClickHandler}/>
   }
-
+  
   return (
-    <Router>
+    <Router history={history}>
     <div style={{height: "100%"}}>
       <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
       <SideDrawer show={this.state.sideDrawerOpen} click={this.backDropClickHandler}/>
       {backdrop}
-      <main style={{marginTop: "3.5em"}}>
-        <Switch>
+      <main className="main-container" style={{marginTop: "3.5em"}}>
+        <Switch >
         <Route path="/" exact component={Home} />
-        <Route path="/about" component={About}/>
-        <Route path="/photos" component={Photos}/>
-        <Route path="/music" component={Music}/>
-        <Route path="/reviews" component={Reviews}/>
-        <Route path="/merch" component={Merch}/>
-        <Route path="/video" component={Video}/>
-        <Route path="/contact" component={Contact}/>
+        <Route path="/about" exact component={About}/>
+        <Route path="/photos" exact component={Photos}/>
+        <Route path="/music" exact component={Music}/>
+        <Route path="/reviews" exact component={Reviews}/>
+        <Route path="/merch" exact component={Merch}/>
+        <Route path="/video" exact component={Video}/>
+        <Route path="/contact" exact component={Contact}/>
         </Switch>
       </main>
     </div>

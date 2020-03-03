@@ -12,28 +12,28 @@ const SideDrawer = props => {
   <nav className={drawerClasses}>
     <ul>
     <Link to="/">
-         <li onClick={props.click}>Home</li>
+         <li onClick={props.click}>H0M3</li>
          </Link>
          <Link to="/about">
-         <li onClick={props.click}>About</li>
+         <li onClick={props.click}>AB0UT</li>
          </Link>
          <Link to="/music">
-         <li onClick={props.click}>Music</li>
+         <li onClick={props.click}>MUS1C</li>
          </Link>
          <Link to="/photos">
-         <li onClick={props.click}>Photos</li>
+         <li onClick={props.click}>PH0T0S</li>
          </Link>
          <Link to="/reviews">
-         <li onClick={props.click}>Reviews</li>
+         <li onClick={props.click}>R3V13WS</li>
          </Link>
          <Link to="/merch">
-         <li onClick={props.click}>Merch</li>
+         <li onClick={props.click}>M3RCH</li>
          </Link>
          <Link to="/video">
-         <li onClick={props.click}>Video</li>
+         <li onClick={props.click}>V1D30</li>
          </Link>
          <Link to="/contact">
-         <li onClick={props.click}>Contact</li>
+         <li onClick={props.click}>C0NT4CT</li>
          </Link>
     </ul>
   </nav>

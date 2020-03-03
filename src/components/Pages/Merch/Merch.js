@@ -3,7 +3,7 @@ import "./Merch.css"
 
 function Merch() {
   return (
-    <div>
+    <div className="merch-main">
       <h1>Merch</h1>
     </div>
   )
